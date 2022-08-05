@@ -10,7 +10,7 @@ import Foundation
 
 struct ForecastManager {
     private let weatherURL: String = "https://api.openweathermap.org"
-    private let apiKey: String = "84413fd54725744961f5d3b8a4f96740"
+    private let apiKey: String = "YOUR_API_KEY"
     private let apiVersion: String = "2.5"
     
     var delegate: ForecastManagerDelegate?
